@@ -36,7 +36,6 @@ class SvatkyTest {
         assertFalse(svatky.jeVSeznamu("Sabína"));
         assertFalse(svatky.jeVSeznamu("Eva"));
         assertFalse(svatky.jeVSeznamu("Jan"));
-
         assertTrue(svatky.jeVSeznamu("Kamila"));
         assertTrue(svatky.jeVSeznamu("Zbyšek"));
         assertTrue(svatky.jeVSeznamu("Ivo"));
